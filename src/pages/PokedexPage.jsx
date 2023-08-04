@@ -16,7 +16,7 @@ const PokedexPage = () => {
   
   // PAGINACIÓN 
   const [currentPage, setCurrentPage] = useState(1)
-  const [pokePerPage] = useState(6)
+  const [pokePerPage] = useState(12)
   const trainer = useSelector(reducer => reducer.trainer)
   // PETICIÓN
   const url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=1010'
