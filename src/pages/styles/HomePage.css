@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/public/Background-pokemon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+
+
+.home-page__container{
+    /* border: 5px solid black; */
+    background-color: rgba(255, 255, 255, 0.382);
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-page__container-card{
+    /* border: 5px solid rgb(255, 30, 0); */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.home-page__title{
+    /* border: 10px solid rgb(0, 255, 64); */
+    margin-top: 40px;
+    margin-bottom: -40px;
+    padding: 5px;
+    animation: bounce1 1s alternate infinite ease-in-out;
+} 
+
+@keyframes bounce1{
+    0%{
+        transform: translateY(25%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.home-page__greeting{
+    /* border: 10px solid rgb(44, 12, 207); */
+    color: red;
+    font-size: xx-large;
+    margin-bottom: -80px;
+}
+
+.home-page__frase{
+    /* border: 10px solid rgb(27, 255, 251); */
+    font-size: large;
+    margin-bottom: -50px;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.home-page__input{
+    /* border: 10px solid rgb(255, 236, 23); */
+    margin-bottom: 50px;
+    width: 250px;
+    height: 35px;
+    font-size: medium;
+    text-align: center;
+}
+::placeholder{color: rgba(169, 169, 169, 0.582);}
+
+.home-page__button{
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.Author{
+    color: white;
+
+}
